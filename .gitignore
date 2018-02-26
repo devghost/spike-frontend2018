@@ -7,6 +7,11 @@ dist/
 parcel.sublime-project
 parcel.sublime-workspace
 
+# elm-package generated files
+elm-stuff
+# elm-repl generated files
+repl-temp-*
+
 # Logs
 logs
 *.log
