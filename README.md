@@ -1,1 +1,1 @@
-"# spike-frontend2018" 
+# spike-frontend2018
