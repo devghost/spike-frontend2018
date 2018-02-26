@@ -1,0 +1,55 @@
+{
+  "name": "parcel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "parcel app/index.html",
+    "test": "ava tests/unit",
+    "testfunc": "ava tests/functional",
+    "testall": "ava tests",
+    "lint": "eslint app/ tests/",
+    "selenium": "./node_modules/.bin/selenium-standalone start",
+    "wallaby": "start http://localhost:51245/"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "ava": {
+    "require": [
+      "babel-register"
+    ],
+    "babel": "inherit"
+  },
+  "devDependencies": {
+    "ava": "^0.25.0",
+    "babel-core": "^6.26.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "eslint": "^4.17.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-config-standard": "^11.0.0-beta.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-node": "^6.0.0",
+    "eslint-plugin-promise": "^3.6.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "flyd": "^0.2.6",
+    "less": "^3.0.1",
+    "meiosis": "^1.2.0",
+    "meiosis-tracer": "^1.2.1",
+    "mithril": "^1.1.6",
+    "node-sass": "^4.7.2",
+    "parcel-plugin-elm": "^0.1.2-alpha",
+    "pixelmatch": "^4.0.2",
+    "puppeteer": "^1.1.1",
+    "selenium-standalone": "^6.12.0",
+    "universal-router": "^6.0.0",
+    "webdriverio": "^4.10.2"
+  },
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "hyperhtml": "^2.5.10",
+    "lit-html": "^0.9.0"
+  }
+}
