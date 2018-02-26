@@ -4,6 +4,8 @@ dist/
 .cache/
 .vscode/
 
+parcel.sublime-project
+parcel.sublime-workspace
 
 # Logs
 logs
