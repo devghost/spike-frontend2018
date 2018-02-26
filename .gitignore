@@ -3,6 +3,7 @@ test-output/
 dist/
 .cache/
 .vscode/
+docs/
 
 parcel.sublime-project
 parcel.sublime-workspace
